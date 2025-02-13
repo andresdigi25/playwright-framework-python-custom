@@ -53,7 +53,8 @@ A GitHub Actions workflow is set up to run the tests automatically on every push
 4. **Run Tests**  
    Executes the tests with `pytest`.
     pytest --maxfail=1 --disable-warnings -q -v 
-    
+
+
 
 ### Example GitHub Actions Workflow (`.github/workflows/ci.yml`)
 
