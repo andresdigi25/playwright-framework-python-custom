@@ -26,7 +26,7 @@ jobs:
           pip install -r requirements.txt
           sudo playwright install-deps   
           # Install Playwright browsers
-          playwright install
+          python -m playwright install
 
       - name: Run Tests
         run: |
