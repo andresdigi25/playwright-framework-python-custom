@@ -1,0 +1,18 @@
+# config.yaml
+
+# URL to be used in UI tests
+test_url: "https://www.example.com"
+
+# Browser configuration settings
+browser: "chromium"
+headless: false
+
+# API Endpoints configuration (optional)
+api_endpoints:
+  get_post: "https://jsonplaceholder.typicode.com/posts/1"
+  create_post: "https://jsonplaceholder.typicode.com/posts"
+
+# Logging settings (optional)
+logging:
+  level: INFO
+  file: "test_logs.log"
