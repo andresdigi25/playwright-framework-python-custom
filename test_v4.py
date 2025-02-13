@@ -4,7 +4,7 @@ from v4 import UIFramework, CONFIG
 @pytest.fixture
 def ui():
     """
-    Pytest fixture to initialize the UIFramework before each test and close it after.
+    Pytest fixture to initialize the UIFramework before each test and close it after...
     """
     ui_instance = UIFramework(headless=True)  # Use headless mode for testing
     yield ui_instance
