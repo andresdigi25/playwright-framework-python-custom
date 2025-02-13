@@ -35,6 +35,13 @@ def test_api_test(ui):
     """
     ui.run_api_test("https://jsonplaceholder.typicode.com/posts/1", 200)
 
+def test_api_meaning_of_life(ui):
+    """
+    Test the API endpoint using run_api_test.
+    If the response status is not 200, an AssertionError will be raised.
+    """
+    ui.run_api_test("https://jsonplaceholder.typicode.com/posts/42", 200)
+
 def test_generate_fake_data(ui):
     """
     Test that verifies the generated fake data contains expected keys.
