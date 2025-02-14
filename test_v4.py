@@ -44,7 +44,7 @@ def test_api_meaning_of_life(ui):
 
 def test_generate_fake_data(ui):
     """
-    Test that verifies the generated fake data contains expected keys.
+    Test that verifies the generated fake data contains expected keys..
     """
     fake_data = ui.generate_fake_data()
     # Check that the fake data contains the necessary keys
